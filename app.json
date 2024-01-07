@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "attendance",
+    "slug": "attendance",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/attendance_logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/attendance_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.milkias.attendance"
+    },
+    "web": {
+      "favicon": "./assets/adaptive-icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3b2c8c84-c25c-44f0-b2c7-dfb0425a2401"
+      }
+    }
+  }
+}
